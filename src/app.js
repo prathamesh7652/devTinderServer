@@ -13,13 +13,13 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://dev-tinder-web-lyart.vercel.app/",
-      "https://dev-tinder-web-lyart.vercel.app/",
-      "https://dev-tinder-web-git-main-prathamesh7652s-projects.vercel.app/",
+      "https://dev-tinder-web-lyart.vercel.app",
+      "https://dev-tinder-web-git-main-prathamesh7652s-projects.vercel.app",
     ],
     credentials: true,
   })
 );
+
 app.use(express.json());
 app.use(cookieParser());
 

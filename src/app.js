@@ -11,12 +11,8 @@ require("./utils/cronjob");
 
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173",
-      "https://dev-tinder-web-lyart.vercel.app",
-      "https://dev-tinder-web-git-main-prathamesh7652s-projects.vercel.app",
-    ],
-    credentials: true,
+    origin: 'https://idevtinder.netlify.app', // Allow only your frontend 
+  credentials: true // Needed if using cookies or authentication headers
   })
 );
 
